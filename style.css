@@ -68,6 +68,7 @@
         /* margin-left: -500px; */
         background:  #2db6b6;
         border-radius: 0 0 20px 20px;
+        z-index: 2;
     }
     /* nav links */
     ul{
