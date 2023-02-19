@@ -125,5 +125,15 @@
     .about_us,.support,.contact{
         background: green;
     }
+   #social_links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    #social_links h5 a{
+        color: #04fcfc;
+        margin: 8px;
+    }
     
   }
