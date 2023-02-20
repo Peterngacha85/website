@@ -71,7 +71,6 @@ body{
         /* margin-left: -500px; */
         background:  #2db6b6;
         border-radius: 0 0 20px 20px;
-        z-index: 2;
     }
     /* nav links */
     ul{
@@ -125,10 +124,7 @@ body{
         width: 100%;
         height: 100dvh;
     }
-    .about_us,.support,.contact{
-        background: green;
-    }
-      #social_links{
+    #social_links{
         width: 100%;
         height: max-content;
         margin-right: 15px;
@@ -145,5 +141,67 @@ body{
     #social_links h5 a{
         color: #04fcfc;
         margin: 8px;
+    }
+    .sections{
+        padding-top: 75px;
+    }
+    h2{
+        color: #04fcfc;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        font-weight: 900;
+        text-align: center;
+    }
+    ol{
+        align-items: center;
+    }
+   ol li{
+        list-style: circle;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    #Our_header{
+        width: 100%;
+        height: 100dvh;
+    }
+    .Our_header_services{
+        width: 100%;
+        height: 100dvh;
+        background-image: linear-gradient(to bottom, rgba(47, 70, 79, 0.531),rgba(47, 70, 79, 0.6)), url("images/img4.jpg");
+        background-position: center;
+        background-size: cover;
+        color: #ffffff;
+        text-align: center;
+    }
+    p{
+        color: #ffffff;
+        font-size: 25px;
+    }
+    span{
+        color: #04fcfc;
+    }
+    /* button */
+    #btn{
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        outline: #04fcfc;
+        background:#2db6b6;
+        transition: 2ms;
+    }
+    #btn:hover{
+        background:#04fcfc;
+    }
+    #btn a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 18px;
+        transition: 2ms;
+    }
+    #btn a:hover{
+       color: black;
     }
   }
