@@ -23,7 +23,9 @@ const Show = () => {
         Menu_a.style.display = "none";
         Menu_a.style.float = "right";
         Menu_b.style.display = "block"
-        welcome_statement.style.top = "350px"
+         welcome_statement.style.top = "350px";
+        social_links.style.display = "flex";
+        social_links.style.justifyContent = "center";
         margin_value = 0;
 }
 function Hide() {
@@ -32,4 +34,6 @@ function Hide() {
     Menu_b.style.display = "none"
     Menu_a.style.display = "block"
     margin_value = -500;
+ social_links.style.display = "block";
+    social_links.style.textAlign = "right";
 }
