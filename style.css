@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    scroll-behavior: smooth;
+}
 
 @media screen and (max-width: 683px) {
     /* @media screen and (max-width: 480px) { */
@@ -125,15 +128,22 @@
     .about_us,.support,.contact{
         background: green;
     }
-   #social_links{
+      #social_links{
+        width: 100%;
+        height: max-content;
+        margin-right: 15px;
+        text-align : right;
+        /* display: block;
+        justify-content: right;
+        text-align: right; */
+    }
+    /* #social_links{
         width: 100%;
         display: flex;
-        justify-content: center;
-    
-    }
+        justify-content: center; 
+    } */
     #social_links h5 a{
         color: #04fcfc;
         margin: 8px;
     }
-    
   }
