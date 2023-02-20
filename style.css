@@ -149,12 +149,14 @@ body{
     h2{
         color: #04fcfc;
         margin-bottom: 20px;
-        padding-top: 5px;
+        padding-top: 10px;
         font-weight: 900;
         text-align: center;
     }
     ol{
         align-items: center;
+        background: rgba(128, 128, 128, 0.728);
+        
     }
    ol li{
         list-style: circle;
